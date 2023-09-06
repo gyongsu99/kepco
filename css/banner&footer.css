@@ -1,0 +1,156 @@
+.card_news {
+  width: 560px;
+  border-radius: 50px;
+}
+
+.card_news h4 {
+  font-family: "GmarketSansMedium";
+  font-size: 1.75rem;
+}
+
+.card_news p {
+  font-family: "KoPubWorldDotum_Light";
+  font-size: 1.13rem;
+}
+
+.card_news_slide_btn {
+  cursor: pointer;
+}
+
+/* .swiper {
+      width: 500px;
+      height: 300px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 490px;
+      height: 160px;
+      object-fit: cover;
+    } */
+.clay_banner {
+  padding: 38px 25px;
+  box-shadow: 0px 0px 5px 3px #e7e8f0;
+  border-radius: 50px;
+  height: 410px;
+}
+
+.slide_button {}
+
+.social_media {
+  width: 690px;
+  margin-left: 2.19rem;
+  position: relative;
+}
+
+.social_media h4 {
+  font-family: "GmarketSansMedium";
+  font-size: 1.75rem;
+}
+
+.social_media>.subtitle {
+  font-size: 18px;
+  font-family: "KoPubWorldDotum_Medium";
+  color: var(--black);
+}
+
+.social_media>.img_box {
+  position: absolute;
+  right: 55px;
+  bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+  height: 60px;
+}
+
+.social_media p {
+  font-family: "KoPubWorldDotum_Light";
+  font-size: 1.13rem;
+}
+
+.img_box {
+  height: 270px;
+}
+
+footer {
+  font-family: "KoPubWorldDotum_Light";
+  color: #868898;
+}
+
+footer a {
+  color: #868898;
+  font-family: "KoPubWorldDotum_Light";
+}
+
+.copyright p {
+  font-family: "KoPubWorldDotum_Light";
+}
+
+.footer_top {
+  border: 1px solid #868898cc;
+  box-shadow: inset 0 0 3px rgba(134, 136, 152, 0.3);
+}
+
+.footer_top .inner>ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.footer_lower * {
+  color: #868898;
+}
+
+.footer_lower>.inner>.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+
+.footer_lower>.inner>p {
+  margin-top: 22px;
+}
+
+.family_site_btn {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #868898cc;
+  text-align: left;
+  line-height: 50px;
+  background-color: #fff;
+  padding-left: 22px;
+  position: relative;
+}
+
+.family_site_btn>#plus_icon {
+  position: absolute;
+  right: 10px;
+  top: 1rem;
+}
+
+.family_site_btn:hover>#plus_icon {
+  rotate: 45deg;
+  transition: 450ms;
+}
+
+/* 
+밑줄
+text-decoration: underline;
+*/
+/* 
+SNS
+width: 9rem;
+height: 1.56rem;
+ */
+/* 반응형 banner & footer */
+@media (max-width: 768px) {}

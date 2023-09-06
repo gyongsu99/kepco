@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.notice_and_slider {
+  margin: 150px 0;
+}
+.tab_menu_notice_title {
+  border-bottom: 1px solid #bababa;
+}
+.notice {
+  width: 422px;
+  height: 339px;
+}
